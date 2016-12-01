@@ -2,8 +2,15 @@
 background-color: red;
 color: white;
 }
-
 .shoe1{
   height: 30%;
   weight: 30%;
+}
+
+.section_3{
+  text-align: left;
+}
+
+.funny-sneaker-link {
+  display: block;
 }
