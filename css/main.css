@@ -1,16 +1,118 @@
+.banner nav{
+  display: inline-block;
+  clear: right;
+}
+.profile{
+  float: right;
+
+}
+.profile-links{
+  color: pink;
+}s
+.men,.girls,.boys,.customize{
+  color: orange;
+}
+.woman{
+  color: maroon;
+}
+
+{
+  text-transform:uppercase;
+  color:white
+}
+
 .section_1{
-background-color: red;
+background-color: medium violetred;
+background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
+padding-top: 50px;
+padding-bottom: 50px
 color: white;
 }
-.shoe1{
-  height: 30%;
-  weight: 30%;
+.shoe_1{
+  height:200px;
+  weight: 100px;
+  float: left;
+  clear:left;
 }
 
+.section_1{ // make you code simple
+color: white;
+text-transform: uppercase;
+}
+
+.back-to-shoe-link{
+text-decoration: none;
+color: white;
+text-align: center;
+}
+
+.text_section1{
+  margin-left: 500px;
+  line-height: 1.5;
+  margin-bottom: 300px;
+
+/*margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;*/
+
+}
+
+{
+  text-decoration: underline;
+}
 .section_3{
-  text-align: left;
+  background-color: red;
+  color: white;
+  padding: 5px 15px   
+  background-color: medium violetred;
+  background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
+}
+.shoe_formatt{
+    height:150px;
+    width: 150px;       
+}
+.table{
+    padding: 400px 200px 200px 400px;  
+    margin: 100px 100px 100px 100px;
 }
 
-.funny-sneaker-link {
+
+
+
+/*.funny-sneaker-link {
   display: block;
+
+}
+.shoe1-block{
+  clear:right;
+  display: inline-block;
+
+}
+
+.shoe2-block{
+  float: right;
+  display: inline-block;
+  clear:right;
+  text-align: center;
+}
+.shoe3-block{
+
+
+}
+
+#company{
+    float: right;
+    postion: relative:
+    font-size:10px;
+
+}
+*/
+/*footer{
+  position: relative;
+  bottom: 3;
+}*/
+
+.buy-button{
+  border: 1px solidblack
+  text-align: center;
+
 }
