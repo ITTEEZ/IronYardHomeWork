@@ -8,24 +8,23 @@
 }
 .profile-links{
   color: pink;
-}s
+  text-transform: uppercase;    
+}
 .men,.girls,.boys,.customize{
   color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .woman{
   color: maroon;
-}
-
-{
-  text-transform:uppercase;
-  color:white
+  text-decoration: underline;
+  background-blend-mode: pink;
+  text-transform: uppercase;    
 }
 
 .section_1{
 background-color: medium violetred;
 background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
-padding-top: 50px;
-padding-bottom: 50px
 color: white;
 }
 .shoe_1{
@@ -49,30 +48,37 @@ text-align: center;
 .text_section1{
   margin-left: 500px;
   line-height: 1.5;
-  margin-bottom: 300px;
-
-/*margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;*/
-
 }
 
-{
-  text-decoration: underline;
-}
 .section_3{
   background-color: red;
-  color: white;
-  padding: 5px 15px   
+  color: white;   
   background-color: medium violetred;
   background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
+  text-align: auto;
+  padding-right: 600px;
+  padding-left:  250px;
+  font-size: 20px; 
 }
 .shoe_formatt{
-    height:150px;
-    width: 150px;       
+    height:250px;
+    width: 250px;       
 }
 .table{
-    padding: 400px 200px 200px 400px;  
-    margin: 100px 100px 100px 100px;
+
+    
+}
+
+.shoe-header{
+    background-color: bisque; 
+}
+
+footer{
+  float: right;
+  font-size:10px;    
+  bottom: 3;
+  display: inline-block;
+  position: relative;        
 }
 
 
@@ -112,7 +118,10 @@ text-align: center;
 }*/
 
 .buy-button{
-  border: 1px solidblack
   text-align: center;
-
+  text-transform:uppercase;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  font color:bisque;
 }
