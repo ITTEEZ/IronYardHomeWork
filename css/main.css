@@ -1,48 +1,36 @@
+/*********************************************************************************************************************************                                                              TOP NAVIGATION
+**********************************************************************************************************************************/
+
 .banner nav{
   display: inline-block;
   clear: right;
 }
 .profile{
   float: right;
-
 }
 .profile-links{
-  color: pink;
-  text-transform: uppercase;    
+  color: pink;    
+  text-transform: uppercase;
 }
-.men,.girls,.boys,.customize{
+.men, .girls, .boys, .customize{
   color: orange;
   text-decoration: none;
   text-transform: uppercase;
 }
-.woman{
+.woman, .size-heading{
   color: maroon;
-  text-decoration: underline;
-  background-blend-mode: pink;
-  text-transform: uppercase;    
+  text-decoration-color: #E18728;    
+  text-transform: uppercase;
+  text-decoration: underline solid green;     
 }
+
+/*********************************************************************************************************************************                                                              SECTION 1
+**********************************************************************************************************************************/
 
 .section_1{
 background-color: medium violetred;
 background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
 color: white;
-}
-.shoe_1{
-  height:200px;
-  weight: 100px;
-  float: left;
-  clear:left;
-}
-
-.section_1{ // make you code simple
-color: white;
-text-transform: uppercase;
-}
-
-.back-to-shoe-link{
-text-decoration: none;
-color: white;
-text-align: center;
 }
 
 .text_section1{
@@ -50,38 +38,82 @@ text-align: center;
   line-height: 1.5;
 }
 
-.section_3{
-  background-color: red;
-  color: white;   
-  background-color: medium violetred;
-  background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
-  text-align: auto;
-  padding-right: 600px;
-  padding-left:  250px;
-  font-size: 20px; 
+.size-heading{
+    color: orange;
 }
-.shoe_formatt{
-    height:250px;
-    width: 250px;       
+.shoe_1{
+  height:200px;
+  width: 200px;
+  float: left;
+  clear:left;
 }
-.table{
 
+.back-to-shoe-link{
+text-decoration: none;
+color: white;
+text-align: left;
+}
+.procuct-details{
+  color: maroon;
+}
+.size-heading{
+    float: right
+    display: inline;
     
 }
 
-.shoe-header{
-    background-color: bisque; 
+.buy-button a{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  font color: bisque;
+  width: 100px;
+  height: 70px;
 }
 
-footer{
+
+
+
+ /*********************************************************************************************************************************                                                              SECTION 2
+**********************************************************************************************************************************/
+
+
+
+/**********************************************************************************************************************************                                                               SECTION 3
+**********************************************************************************************************************************/
+
+
+.section_3{
+  background-color: red;        
+  color: white;
+  background-color: medium violetred;
+  background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 250px;
+  font-size: 20px;
+}
+.shoe_formatt{
+    height: 205px;
+    width: 250px;
+}
+
+.shoe-header{
+    background-color: bisque;
+}
+
+/**********************************************************************************************************************************                                                               BOTTOM FOOTER
+**********************************************************************************************************************************/
+
+.footer nav{
   float: right;
-  font-size:10px;    
+  font-size:10px;
   bottom: 3;
   display: inline-block;
-  position: relative;        
+  position: relative;
 }
-
-
 
 
 /*.funny-sneaker-link {
@@ -105,11 +137,6 @@ footer{
 
 }
 
-#company{
-    float: right;
-    postion: relative:
-    font-size:10px;
-
 }
 */
 /*footer{
@@ -117,11 +144,4 @@ footer{
   bottom: 3;
 }*/
 
-.buy-button{
-  text-align: center;
-  text-transform:uppercase;
-  background-color: whitesmoke;
-  border-radius: 10px;
-  text-align: center;
-  font color:bisque;
-}
+
