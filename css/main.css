@@ -1,9 +1,17 @@
-/*********************************************************************************************************************************                                                              TOP NAVIGATION
+/*********************************************************************************************************************************         Tiambe Hooper
+    Last updated: December 3, 2016
 **********************************************************************************************************************************/
 
+/*********************************************************************************************************************************                                                              TOP NAVIGATION
+**********************************************************************************************************************************/
 .banner nav{
-  display: inline-block;
-  clear: right;
+    display: inline-block;
+    clear: right;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.logo-settings{
+    width: 10%;    
 }
 .profile{
   float: right;
@@ -18,126 +26,117 @@
   text-transform: uppercase;
 }
 .woman, .size-heading{
-  color: maroon;
-  text-decoration-color: #E18728;    
+  color: maroon;    
   text-transform: uppercase;
-  text-decoration: underline solid green;     
 }
 
 /*********************************************************************************************************************************                                                              SECTION 1
 **********************************************************************************************************************************/
-
 .section_1{
 background-color: medium violetred;
 background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
 color: white;
-}
+padding-top: 10px;
+padding bottom: 40px;
+margin-bottom: 50px;
 
+height: 300px;    
+}
 .text_section1{
   margin-left: 500px;
   line-height: 1.5;
 }
-
 .size-heading{
     color: orange;
 }
 .shoe_1{
-  height:200px;
-  width: 200px;
+  height:260px;
+  width: 370px;
   float: left;
   clear:left;
 }
-
 .back-to-shoe-link{
 text-decoration: none;
 color: white;
-text-align: left;
+float: left;
 }
 .procuct-details{
   color: maroon;
 }
 .size-heading{
     float: right
-    display: inline;
-    
+    display: inline;    
 }
-
 .buy-button a{
   text-align: center;
   text-transform: uppercase;
   background-color: whitesmoke;
-  border-radius: 10px;
+  border-radius: 50px;
   text-align: center;
   font color: bisque;
-  width: 100px;
-  height: 70px;
+
 }
-
-
-
 
  /*********************************************************************************************************************************                                                              SECTION 2
 **********************************************************************************************************************************/
-
-
+.product-detail-heading{
+    display: inline;
+     
+}
+.product-detail-heading_two{
+   display: inline;     
+}
+.reviews{
+    display: inline;      
+}
 
 /**********************************************************************************************************************************                                                               SECTION 3
 **********************************************************************************************************************************/
-
-
 .section_3{
   background-color: red;        
   color: white;
   background-color: medium violetred;
   background: radial-gradient(circle at 20% 40%, tomato 20%, orange 80%, gray);
   text-align: center;
-  padding-right: 200px;
-  padding-left: 250px;
   font-size: 20px;
+  margin-top: 50px;
+ margin-bottom: 30px;    
 }
 .shoe_formatt{
     height: 205px;
     width: 250px;
+    padding-right: 100x;
+    padding-left: 100px;
 }
-
-.shoe-header{
-    background-color: bisque;
+.recocomended-shoes-heading{
+    background-color: salmon;
+    color:gray;
 }
 
 /**********************************************************************************************************************************                                                               BOTTOM FOOTER
 **********************************************************************************************************************************/
-
-.footer nav{
-  float: right;
-  font-size:10px;
-  bottom: 3;
-  display: inline-block;
-  position: relative;
+.bottom-footer-format{ 
+    padding-top: 20px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline;
+}
+ .company-settings-bottom{   
+    display: inline;
+    clear: right;
+    padding-top: 20px;
+    padding-bottom: 20px;        
+}
+.profile-links-bottom{
+    color:black;
+    float:right;   
+}
+ .logo-settings-bottom{
+    width: 4%;    
 }
 
 
-/*.funny-sneaker-link {
-  display: block;
-
-}
-.shoe1-block{
-  clear:right;
-  display: inline-block;
-
-}
-
-.shoe2-block{
-  float: right;
-  display: inline-block;
-  clear:right;
-  text-align: center;
-}
-.shoe3-block{
-
-
-}
-
-}
 */
 /*footer{
   position: relative;
