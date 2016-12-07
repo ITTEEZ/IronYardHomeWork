@@ -39,7 +39,6 @@ color: white;
 padding-top: 10px;
 padding bottom: 40px;
 margin-bottom: 50px;
-
 height: 300px;    
 }
 .text_section1{
@@ -86,8 +85,15 @@ float: left;
 .product-detail-heading_two{
    display: inline;     
 }
+.section_2_header{
+    border-bottom: 3px solid black;
+    overflow: auto;
+/*    clear: right;*/
+}
+
 .reviews{
-    display: inline;      
+    display: inline;
+    float: right;
 }
 
 /**********************************************************************************************************************************                                                               SECTION 3
